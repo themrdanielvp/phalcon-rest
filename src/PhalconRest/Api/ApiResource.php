@@ -2,8 +2,8 @@
 
 namespace PhalconRest\Api;
 
-use Phalcon\Di;
-use Phalcon\Mvc\Micro\CollectionInterface;
+use Phalcon\Di\Di;
+use \Phalcon\Mvc\Micro\CollectionInterface;
 use PhalconApi\Acl\MountableInterface;
 use PhalconRest\Constants\Services;
 use PhalconRest\Mvc\Controllers\CrudResourceController;
